@@ -1,0 +1,150 @@
+
+/***********************Element Selector*******************/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+h1{
+  margin: 0 auto;
+  font-family: 'Tangerine', cursive;
+  /*font-family: 'Arizonia', cursive;*/
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 1.1;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E
+}
+a{
+  color:  #11999E;
+}
+p{
+  line-height: 2;
+}
+p
+img{
+  opacity: 0.8;
+
+}
+a, img{
+  margin: 10px 20px;
+}
+hr{
+  margin: 120px auto 100px;
+  height: 0;
+  border: 5px dotted #CCD6A6;
+  border-bottom: none;
+  width: 5%;
+}
+
+/***********************Class Selector*******************/
+.top-container{
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud{
+  filter: grayscale(80%);
+  /*filter: brightness(120%);*/
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottom-cloud{
+  filter: grayscale(80%);
+  /*filter: brightness(120%);*/
+  position: absolute;
+  left: 250px;
+  bottom: 250px;
+}
+.the-mountain{
+  margin-top: 70px;
+  width: 30%;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+.profile-img{
+  width: 12.5%;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 50px auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.web-development-img{
+  width: 25%;
+  float: left;
+  margin-right: 35px;
+}
+
+.trekking-img{
+  width: 25%;
+  float: right;
+  margin-right: 35px;
+}
+
+
+.buttom-container{
+  margin-top: 40px;
+  background-color: #66BFBF;
+  height: 125px;
+  padding-top: 40px;
+  box-sizing: content-box;
+}
+.social-media{
+  width: 3%;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: .8rem;
+  padding: 10px 0;
+}
+
+.btn{
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+/***********************ID    Selector*******************/
